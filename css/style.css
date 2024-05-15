@@ -18,7 +18,6 @@
 
   body{
     background-color: rgba(250, 251, 255, 1);
-  
 }
 
   li, a, button{
@@ -809,7 +808,7 @@ testimonials-image img{
 .stats-section{
   gap: 51px;
   background-color: rgba(55, 52, 169, 1);
-  max-height:256px;
+  
 }
 
 
@@ -823,7 +822,7 @@ testimonials-image img{
   display: flex;
   gap: 94px;
   color: #ffffff;
-  align-items: center;
+  
 }
 
 .stats-title{
@@ -869,4 +868,482 @@ testimonials-image img{
 .grid-image img{
 
   height: 120px;
+}
+
+/******************************** BLOG SECTION *********************************************/
+
+.blog-section{
+  gap: 51px;
+  padding: 146px 117px 98px 146px;
+  
+}
+
+.blog-heading{
+  margin-bottom: 72px;
+  font-family: Manrope;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 66px;
+  letter-spacing: -0.03em;
+}
+
+.main-blog-title{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+}
+
+.main-blog-description{
+  font-family: Manrope;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+
+}
+
+
+.blog-footer-text{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+}
+
+.blog-container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.top-blog{
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  height: 285px;
+}
+
+.top-blog-header{
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+}
+
+.top-blog-content{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 34px;
+  padding-left: 28px;
+}
+
+.top-blog-footer{
+  display: flex;
+  gap: 10px;
+  padding-top: 34px;
+  padding-left: 28px;
+}
+
+.blog-footer-svg{
+  height: 12px;
+  width: 12px;
+}
+
+.bottom-blog{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-content{
+  width: 382px;
+  background-color: #ffffff;
+}
+
+.blog-header{
+  display: flex;
+  flex-direction: column;
+  gap:7px;
+  padding: 25px 40px 58px 32px;
+}
+
+.blog-image{
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.blog-image img{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+
+/******************************** FAQ SECTION *********************************************/
+
+.faq-section{
+  gap: 51px;
+  padding: 150px 117px 71px 119px;
+  
+}
+
+.faq-header{
+ margin-bottom: 71px;
+}
+
+.faq-title{
+  font-family: Manrope;
+  font-size: 71px;
+  font-weight: 800;
+  line-height: 76px;
+  letter-spacing: -0.03em;
+}
+
+.question{
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+}
+
+.answer{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+}
+
+.faq-grid{
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-answers{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+
+
+.faq-tiles-main{
+  display: flex;
+  padding:25px 27px 24px 23px;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: solid 1px;
+  border-color: rgba(207, 207, 207, 1);
+  border-radius: 10px;
+}
+
+.faq-content{
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  width: 751px;
+  
+}
+
+.faq-icon svg{
+  height: 20px;
+  width: 20px;
+}
+
+.faq-tiles{
+  display: flex;
+  padding:25px 27px 24px 23px;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: solid 1px;
+  border-color: rgba(207, 207, 207, 1);
+  border-radius: 10px;
+}
+
+.faq-questions{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding:67px 27px 24px 23px;
+  background-color: #ffffff;
+  border: solid 1px;
+  border-color: rgba(207, 207, 207, 1);
+  border-radius: 10px;
+  width: 400px;
+  align-items: center;
+}
+
+.faq-question-description{
+  text-align: center;
+}
+
+.faq-questions-image img{
+  width: 67px;
+  height:63px;
+
+}
+
+.faq-question-title{
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+}
+
+.faq-question-description{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: -0.03em;
+}
+
+
+.faq-button{
+  width: 337px;
+  height: 76px;
+  background-color: rgba(255, 127, 92, 1);
+  color: #ffffff;
+  margin-top: 93px;
+}
+
+
+/******************************** ADVERT SECTION *********************************************/
+
+
+.advert-section{
+  padding: 150px 117px 150px 123px;
+  background-image: url(../assets/advert/CTA.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+.advert-heading{
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+
+
+
+
+/******************************** FOOTER SECTION *********************************************/
+
+
+
+.footer-container {
+  /* top | right | bottom | left */
+  padding: 0 117px 58px 121px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.footer-sep-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 59px;
+}
+
+.footer-separator {
+  border-bottom: 2px solid #e5e5ea;
+  min-width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  gap: 76px;
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-content-first {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  width: 213px;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.first-title {
+  font-family: Gilroy;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #1b1c31;
+}
+
+.first-description {
+  margin: 0;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #757095;
+}
+
+.footer-content-rest-container {
+  display: flex;
+  gap: 114px;
+}
+
+.footer-content-second-third {
+  display: flex;
+  gap: 137px;
+}
+
+.footer-content-second {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.second-title {
+  font-family: Manrope;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #181433;
+}
+
+.second-links {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.links-item {
+  list-style-type: none;
+}
+
+.links-item a {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #181433;
+}
+
+.footer-content-third {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.third-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-content-fourth {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  width: 389px;
+}
+
+.fourth-upper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.fourth-upper-title {
+  font-family: Manrope;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #181433;
+}
+
+.fourth-upper-email-btn-container {
+  display: flex;
+  gap: 0;
+  width: 100%;
+}
+.fourth-upper-input {
+  /* top | right | bottom | left */
+  padding: 15px 0 11px 15px;
+  background-color: #eeeeff;
+  width: 240px;
+  border: none;
+}
+.fourth-upper-input::placeholder {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+
+  opacity: 0.2;
+  color: #181433;
+}
+
+.fourth-upper-btn {
+  background-color: #3734a9;
+  max-width: 149px;
+  border: none;
+  padding: 13px 32px 13px 43px;
+}
+
+.fourth-upper-btn span {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.fourth-description {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  opacity: 0.5;
+  color: #181433;
+}
+.footer-copyright {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #181433;
 }
