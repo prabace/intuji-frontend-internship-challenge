@@ -694,7 +694,179 @@ ul{
   align-items: c;
 }
 
-.features-sub-card-one{
+
+/******************************** TESTIMONIALS SECTION *********************************************/
+
+
+.testimonials-section{
+  display: flex;
+  flex-direction: column;
+  padding: 146px 117px 98px 146px;
+  gap: 51px;
   
-  
+  background-color: rgba(250, 251, 255, 1);
+}
+
+
+.testimonials-heading{
+  display:flex;
+  gap:389px;
+}
+
+
+.testimonials-main-title{
+  font-family: 'Manrope', sans-serif;
+  font-size: 71px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 66px;
+  text-align: left;
+}
+
+.testimonials-description{
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 29px;
+  text-align: left;
+}
+
+.testimonials-title{
+  display:flex;
+  flex-direction: column;
+  gap:37px;
+
+}
+
+testimonials-image img{
+    width: 74.78px;
+    height: 175.55px;
+}
+
+
+.testimonials-card{
+  display: flex;
+  gap: 20px;
+}
+
+.testimonials-content{
+  border-radius: 10px;
+  border: solid 1px;
+  border-color: rgba(207, 207, 207, 1);
+  display: flex;
+}
+
+.testimonials-content-heading{
+  padding: 24px 25px 26px 40px;
+  display: flex;
+  flex-direction: column;
+  max-width: 402px;
+  gap: 41px;
+  position: relative;
+  border-radius: 20px;
+  opacity: 0.3px;
+ 
+}
+
+.testimonials-content-description {
+  width: 368px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 36px;
+  text-align: left;
+  margin: 0;
+  color: #000000;
+  padding: 38px 34px 33px 34px;
+}
+
+.testimonials-author {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+  padding: 0 0 34px 34px;
+}
+
+.testimonials-svg {
+  position: absolute;
+  top: -20px;
+  left: 30px;
+}
+
+.testimonials-image img{
+  padding: 24px 25px 26px 26px;
+}
+
+
+
+/******************************** STATS SECTION *********************************************/
+
+.stats-section{
+  gap: 51px;
+  background-color: rgba(55, 52, 169, 1);
+  max-height:256px;
+}
+
+
+.stats-container{
+  padding: 69px 158px 63px 149px;
+  display: flex;
+  width: 100%;
+}
+
+.stats-data{
+  display: flex;
+  gap: 94px;
+  color: #ffffff;
+  align-items: center;
+}
+
+.stats-title{
+  font-family: Manrope;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.grid-one{
+  display: flex;
+  flex-direction: column;
+  gap:21px
+}
+
+.grid-one-heading{
+  font-family: Manrope;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+
+.grid-one-subheading{
+  display: flex;
+  gap: 16px;
+}
+
+
+.grid-icon-text{
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.grid-image img{
+
+  height: 120px;
 }
