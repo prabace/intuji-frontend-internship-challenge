@@ -569,3 +569,132 @@ ul{
 
 
 
+/******************************** FEATURES SECTION *********************************************/
+
+
+.features-section{
+  display: flex;
+  flex-direction: column;
+  padding: 146px 117px 98px 146px;
+  gap: 51px;
+  max-height: 833px;
+  background-color: rgba(201, 231, 242, 1);
+}
+
+
+.features-heading{
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.features-title{
+  font-family: 'Manrope', sans-serif;
+  font-size: 71px;
+  font-weight: 800;
+  line-height: 66px;
+  letter-spacing: -0.03em;
+}
+
+.features-description{
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+}
+
+.features-card{
+  display: flex;
+  gap: 30px;
+}
+
+.features-card-one{
+  padding: 53px 50px 43px 31px;
+  background-color: #ffffff;
+  border: solid 1px;
+  border-radius: 8px;
+  border-color: rgba(171, 200, 210, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.features-card-two{
+  padding: 53px 50px 43px 31px;
+  background-color: #ffffff;
+  border: solid 1px;
+  border-radius: 8px;
+  border-color: rgba(171, 200, 210, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.features-card-three{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 35px;
+  letter-spacing: -0.03em;
+}
+
+.features-sub-card-one{
+  padding: 42px 43px 41px 31px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  position: relative;
+  border: solid 1px;
+  border-radius: 8px;
+  border-color: rgba(171, 200, 210, 1)
+}
+
+.features-sub-card-two{
+  padding: 42px 43px 41px 31px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: solid 1px;
+  border-radius: 8px;
+  border-color: rgba(171, 200, 210, 1)
+}
+
+.features-card-content{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  font-family: 'Manrope', sans-serif;
+  
+}
+
+.features-card-heading{
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 35px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+}
+
+.features-card-description{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+
+}
+.features-image img{
+  align-items: c;
+}
+
+.features-sub-card-one{
+  
+  
+}
