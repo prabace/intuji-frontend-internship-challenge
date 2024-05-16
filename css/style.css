@@ -31,7 +31,7 @@
   }
 
   header{
-    min-height: 100vh;
+  
     width: 100%;  
     padding-left: 121px;
     background: linear-gradient(-123deg, rgba(98,186,218,1) 0%, rgba(201,231,242,1) 100%);
@@ -49,7 +49,7 @@
     justify-content: space-between;
     padding-top: 38px;
     padding-right: 117px;
-    padding-left: 121px;
+    /* padding-left: 121px; */
   }
 
   .nav__links {
@@ -67,6 +67,9 @@
 
   .nav__links li a{
     transition: all 0.3s ease 0s;
+    display: flex;
+    gap: 12px;
+    align-items: center;
     
   }
 
@@ -100,6 +103,7 @@
     align-items: center;
     color: black;
     max-width: 100%;
+    position: relative;
     
 }
 
@@ -119,12 +123,27 @@
 
 
 .content-image{
-   padding-right: 390px;
+   padding-right: 150px;
 }
+
+.content-image-bird {
+position: absolute; 
+right: 0;
+top: 35px;
+}
+
+.content-image-grafitti {
+  position: absolute; 
+  right: 0;
+  bottom: 0;
+  }
+   
+ 
+
 
 .content-image img{
   max-width: 100%;
-  height:100vmin;
+  height:92vmin;
    
 }
 
@@ -951,7 +970,7 @@ testimonials-image img{
 }
 
 
-/* DISCOVER CARD */
+/*********************************** DISCOVER CARD */
 .discover-container {
   padding-left: 123px;
   padding-right: 117px;
@@ -1112,6 +1131,9 @@ testimonials-image img{
 .blog-content{
   width: 382px;
   background-color: #ffffff;
+  height: 436px;
+  display: flex;
+  flex-direction: column;
 }
 
 .blog-header{
@@ -1225,7 +1247,7 @@ testimonials-image img{
   border: solid 1px;
   border-color: rgba(207, 207, 207, 1);
   border-radius: 10px;
-  width: 400px;
+  width: 401px;
   align-items: center;
 }
 
@@ -1292,6 +1314,7 @@ testimonials-image img{
   padding-left: 123px;
   padding-right: 117px;
   position: relative;
+  width: ;
 }
 
 .discover {
