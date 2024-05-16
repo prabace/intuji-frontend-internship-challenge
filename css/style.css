@@ -9,6 +9,8 @@
     src: local('Gilroy-Regular'), url(../font/Gilroy-Regular.ttf) format('truetype');
   }
 
+  
+
   *{
     box-sizing: border-box;
     margin: 0;
@@ -124,6 +126,68 @@
   max-width: 100%;
   height:100vmin;
    
+}
+
+.heading-icons{
+  display: flex;
+  gap: 50px;
+  margin-top: 56px;
+}
+
+
+.heading-icons p{
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(55, 52, 169, 1);
+}
+
+.heading-icons img{
+  height: 60px;
+  width: 60px;
+}
+
+.heading-play{
+  display: flex;
+  gap: 11px;
+}
+
+.footer-option{
+  margin-top: 51px;
+  display: flex;
+  gap: 24px;
+}
+
+.option-one{
+  display: flex;
+  gap:6px;
+}
+.option-one-svg svg{
+  height: 24px;
+  width: 24px;
+  justify-items: center;
+ 
+  
+}
+
+.option-two-svg svg{
+  height: 24px;
+  width: 24px;
+  justify-items: center;
+ 
+}
+
+.option-two{
+  display: flex;
+  gap:6px;
+}
+.heading-play p{
+ align-content: center;
+}
+
+.heading-btn{
+  width: 162px;
+  height: 60px;
+  border-radius: 47px;
 }
 
 
@@ -805,42 +869,64 @@ testimonials-image img{
 
 /******************************** STATS SECTION *********************************************/
 
-.stats-section{
-  gap: 51px;
+.stats-section {
+  padding-left: 300px;
+
   background-color: rgba(55, 52, 169, 1);
-  
 }
 
-
-.stats-container{
-  padding: 69px 158px 63px 149px;
-  display: flex;
+.stats-container {
+  /* padding: 69px 158px 63px 149px; */
   width: 100%;
-}
-
-.stats-data{
-  display: flex;
-  gap: 94px;
-  color: #ffffff;
   
 }
 
-.stats-title{
+.stats {
+  
+  color: #ffffff;
+  align-items: center;
+
+}
+
+.stats-data {
+  display: flex;
+  
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+
+.stats-title {
   font-family: Manrope;
   font-size: 19px;
   font-weight: 400;
   line-height: 31px;
   letter-spacing: -0.02em;
   text-align: left;
+  padding-top: 82px;
+  padding-bottom: 81px;
 }
 
-.grid-one{
+.grids-container {
+  display: flex;
+  flex-direction: row;
+  gap: 87px;
+  padding-top: 69px;
+  padding-bottom: 63px;
+}
+
+.grid-one-two-container {
+  display: flex;
+  gap: 126px;
+}
+.grid-one {
   display: flex;
   flex-direction: column;
-  gap:21px
+  gap: 21px;
 }
 
-.grid-one-heading{
+.grid-one-heading {
   font-family: Manrope;
   font-size: 72px;
   font-weight: 800;
@@ -849,14 +935,13 @@ testimonials-image img{
   text-align: left;
 }
 
-
-.grid-one-subheading{
+.grid-one-subheading {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
-
-.grid-icon-text{
+.grid-icon-text {
   font-family: Manrope;
   font-size: 30px;
   font-weight: 400;
@@ -865,11 +950,78 @@ testimonials-image img{
   text-align: left;
 }
 
-.grid-image img{
 
-  height: 120px;
+/* DISCOVER CARD */
+.discover-container {
+  padding-left: 123px;
+  padding-right: 117px;
+  position: relative;
 }
 
+.discover {
+  border-radius: 20px;
+  background-color: #3734a9;
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  align-items: center;
+}
+
+.discover-title {
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: white;
+  padding: 108px 219px 0 218px;
+}
+
+.discover-btn-container {
+  padding: 0px 489px 100px 488px;
+}
+
+.discover-btn {
+  padding: 19px 42px 18px 42px;
+  background-color: #ff7f5c;
+  border-radius: 10px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: white;
+}
+
+.discover-curl-1 {
+  position: absolute;
+  top: 49px;
+  right: 200px;
+}
+
+.discover-curl-2 {
+  position: absolute;
+  bottom: 35px;
+  left: 235px;
+}
+
+.discover-square-dots {
+  position: absolute;
+  top: 54px;
+  left: 310px;
+}
+.discover-left-arc {
+  position: absolute;
+  bottom: 125px;
+  left: 370px;
+}
+.discover-right-arc {
+  position: absolute;
+  bottom: 50px;
+  right: 150px;
+}
 /******************************** BLOG SECTION *********************************************/
 
 .blog-section{
@@ -1021,7 +1173,7 @@ testimonials-image img{
 
 .faq-grid{
   display: flex;
-  justify-content: space-between;
+  gap: 48px;
 }
 
 .faq-answers{
@@ -1135,6 +1287,81 @@ testimonials-image img{
 
 
 
+/* DISCOVER CARD */
+.discover-container {
+  padding-left: 123px;
+  padding-right: 117px;
+  position: relative;
+}
+
+.discover {
+  border-radius: 20px;
+  background-color: #3734a9;
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  align-items: center;
+}
+
+.discover-title {
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: white;
+  padding: 108px 219px 0 218px;
+}
+
+.discover-btn-container {
+  padding: 0px 489px 100px 488px;
+}
+
+.discover-btn {
+  padding: 19px 42px 18px 42px;
+  background-color: #ff7f5c;
+  border-radius: 10px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: white;
+}
+
+.discover-curl-1 {
+  position: absolute;
+  top: 49px;
+  right: 200px;
+}
+
+.discover-curl-2 {
+  position: absolute;
+  bottom: 35px;
+  left: 235px;
+}
+
+.discover-square-dots {
+  position: absolute;
+  top: 54px;
+  left: 310px;
+}
+.discover-left-arc {
+  position: absolute;
+  bottom: 125px;
+  left: 370px;
+}
+.discover-right-arc {
+  position: absolute;
+  bottom: 50px;
+  right: 150px;
+}
+
+
+
+
 
 
 /******************************** FOOTER SECTION *********************************************/
@@ -1143,7 +1370,7 @@ testimonials-image img{
 
 .footer-container {
   /* top | right | bottom | left */
-  padding: 0 117px 58px 121px;
+  padding: 150px 117px 58px 121px;
   display: flex;
   flex-direction: column;
   gap: 40px;
